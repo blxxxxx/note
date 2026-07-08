@@ -11,7 +11,7 @@ Use this skill for the user's personal learning notes, especially AI, software e
 
 1. Check whether the note has factual errors, overconfident claims, or unclear technical wording.
 2. Rewrite into readable Markdown with headings, bullets, and short paragraphs.
-3. Preserve the user's original content and learning trace. Do not turn rough notes into a polished article unless asked.
+3. Preserve the user's original content and learning trace. Use the minimum edit needed; do not turn rough notes into a polished article unless asked.
 
 ## Workflow
 
@@ -19,7 +19,9 @@ Use this skill for the user's personal learning notes, especially AI, software e
 - Separate facts from guesses.
 - Mark uncertain model-specific claims as `待核实` instead of deleting them.
 - Keep the user's core wording when it is already clear.
+- Prefer reformatting over rewriting.
 - Add only small clarifications that improve correctness or readability.
+- Do not add broad background explanations unless the user asks.
 - Prefer concise headings and bullet lists.
 - Avoid large rewrites, extra theory dumps, or unrelated background.
 
