@@ -1,2 +1,8 @@
 1 agentic rl
 2 qwen的gate？
+3 deepspeed
+4 megatron
+4 vllm
+5 sglang
+6 llm的所有模块any2t
+7 any2image video
